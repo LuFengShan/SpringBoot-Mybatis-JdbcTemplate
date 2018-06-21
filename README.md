@@ -1,0 +1,2 @@
+# SpringBoot-Mybatis-JdbcTemplate
+这是我工作中自己搭的一个基础框架，现在已经在我们项目组的项目中运行了，mybatis可以使用注解，也可以使用配置文件，批处理的时候使用JdbcTemplate
