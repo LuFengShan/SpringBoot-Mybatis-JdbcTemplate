@@ -25,18 +25,18 @@ public class DepartmentController {
   @Autowired
   private DepartmentService departmentService;
 
-  @RequestMapping("/dpt/{id}")
+  @RequestMapping("/dpts/{id}")
   public Department findById(@PathVariable Integer id) {
     return departmentService.findById(id);
   }
 
 
-  @RequestMapping("/dpt")
+  @RequestMapping("/dpts")
   public List<Department> listDepartment() {
     return departmentService.listDepartment();
   }
 
-  @RequestMapping("/dpt/insert/{departmentName}")
+  @RequestMapping("/dpts/insert/{departmentName}")
   public void insertDepartment(@PathVariable String departmentName) {
     departmentService.insertDepartment(departmentName);
   }

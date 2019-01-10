@@ -8,8 +8,8 @@ import com.gx.entity.Department;
 public interface DepartmentMapper {
 
   @Select("SELECT * FROM department")
-  public List<Department> listDepartment();
+  List<Department> listDepartment();
 
-  public void insertDepartment(String departmentName);
+  void insertDepartment(String departmentName);
 }
 

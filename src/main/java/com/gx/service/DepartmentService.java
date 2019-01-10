@@ -4,10 +4,10 @@ import java.util.List;
 import com.gx.entity.Department;
 
 public interface DepartmentService {
-  public Department findById(Integer id);
+  Department findById(Integer id);
 
-  public List<Department> listDepartment();
+  List<Department> listDepartment();
 
-  public void insertDepartment(String departmentName);
+  void insertDepartment(String departmentName);
 }
 

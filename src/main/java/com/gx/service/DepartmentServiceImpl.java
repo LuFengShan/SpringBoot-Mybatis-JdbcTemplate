@@ -13,7 +13,6 @@ public class DepartmentServiceImpl implements DepartmentService {
   @Autowired
   private DepartmentDao departmentDao;
 
-
   @Autowired
   private DepartmentMapper departmentMapper;
 
